@@ -1,6 +1,8 @@
 # scRNA seq data analysis using Seurat V5 package
 This repository is a reference material for scRNA analysis course. The reference materials and important links are in my google classroom:
 https://classroom.google.com/c/NzcxODY5MzM3OTkx?cjc=usnpoawr
+---
+---
 
 ## 1. scRNA_Analysis_Guided_Clustering_Tutorial-pbmc3k
 For this tutorial, we will be analyzing the a dataset of Peripheral Blood Mononuclear Cells (PBMC) freely available from 10X Genomics. There are 2,700 single cells that were sequenced on the Illumina NextSeq 500.
@@ -20,3 +22,36 @@ The tutorial is built around the Seurat object, which serves as a central contai
 - Clustering results
 
 - Graph-based structures (kNN, SNN)
+---------------------------------------------------------------------------------------------------------------
+ ### 🧪 Analysis Workflow Covered
+- *Data Import & Seurat Object Creation*
+  
+    CreateSeuratObject()
+
+- *Quality Control (QC)*
+  
+    Filter cells by nFeature_RNA, nCount_RNA, percent.mt
+
+- *Normalization*
+  
+    Using NormalizeData() or SCTransform()
+
+- *Highly Variable Feature Selection*
+  
+    FindVariableFeatures()
+
+- *Scaling & PCA*
+  
+    ScaleData(), RunPCA()
+
+- *Clustering*
+  
+    FindNeighbors(), FindClusters()
+
+- *Dimensionality Reduction & Visualization*
+  
+    RunUMAP(), DimPlot()
+
+- *Marker Gene Identification & Cluster Annotation*
+  
+    FindAllMarkers()
