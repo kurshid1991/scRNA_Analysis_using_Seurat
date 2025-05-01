@@ -55,3 +55,17 @@ The tutorial is built around the Seurat object, which serves as a central contai
 - *Marker Gene Identification & Cluster Annotation*
   
     FindAllMarkers()
+---
+---
+
+## 2. Data visualization
+
+**Title:**  
+🧬 **Visualizing Single-Cell Data in Seurat: A Comprehensive Guide**
+
+**Summary:**  
+This Seurat visualization vignette demonstrates how to effectively explore and present single-cell RNA-seq data using the Seurat R package. It covers key plotting functions such as `DimPlot`, `FeaturePlot`, `VlnPlot`, `RidgePlot`, `DotPlot`, and `Heatmap`, providing insight into cell clustering, gene expression, and cell identity.
+
+The tutorial showcases how to visualize dimensionality reductions (UMAP/tSNE), display feature-level expression across cells, and create comparative plots across conditions or metadata groups.
+
+The guide emphasizes clarity, aesthetics, and the power of patchwork for combining multiple plots into cohesive figures—making it essential for publication-quality visual analytics in scRNA-seq research.
