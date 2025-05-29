@@ -210,4 +210,8 @@ ggsave(filename = "../output/images/pbmc3k_umap.jpg", height = 7, width = 12, pl
 
 saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
 
+# Or you can save the entire workspace
+
+save.image(file = "../output/pbmc_workspace.RData")
+
 
