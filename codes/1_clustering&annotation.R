@@ -208,7 +208,7 @@ plot <- DimPlot(pbmc, reduction = "umap", label = TRUE, label.size = 4.5) + xlab
 plot
 ggsave(filename = "../output/images/pbmc3k_umap.jpg", height = 7, width = 12, plot = plot, quality = 50)
 
-saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
+#saveRDS(pbmc, file = "../output/pbmc3k_final.rds")
 
 # Or you can save the entire workspace
 
